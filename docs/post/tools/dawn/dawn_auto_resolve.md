@@ -1,4 +1,6 @@
-# Dawn Auto-Resolve
+# The Dusk Programming Language
+
+## [Post-Bootstrap](../../README.md) -> [Tools](../README.md) -> [Dawn](README.md) -> Dawn Auto-Resolve
 
 Sometimes, when you are making a project, you need to use `extern` libraries for things such as OpenGL/Vulkan, OpenAL/PulseAudio, and maybe also input utilities, but you don't know what library they are in, so you just slap the following into your program:
 
