@@ -51,4 +51,9 @@ fn main(args: str[]) {
 			printf("Using source file: %s\n", getName(srcfile));
 		}
 	}
+
+	loop(srcfile in srcfiles) {
+		var ast = exec_sync("duskc", 2, "--emit-ast", srcfile);
+		
+	}
 }
